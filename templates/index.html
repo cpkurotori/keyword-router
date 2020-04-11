@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+
+<body>
+    {% if invalid %}
+    <span style="color: red">Invalid keyword. Try again...</span>
+    {% endif %}
+    <form action="/" method="POST">
+        <label>Keyword: </label>
+        <input id="keyword" name="keyword">
+        <button type="submit">Get Next Clue</button>
+    </form>
+</body>
+
+</html>
