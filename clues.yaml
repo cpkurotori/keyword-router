@@ -1,2 +1,8 @@
 - keyword: hello
-  url: https://www.google.com
+  next:
+    type: url
+    value : https://www.google.com
+- keyword: other
+  next:
+    type: clue
+    value : Humpty dumpty sat on a wall, humpty dumpty had a great fall.
